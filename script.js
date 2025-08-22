@@ -11,7 +11,6 @@ let waitingForA = false;
 
 const stages = [
   { title: "Intro", text: "Welcome to my gamified resume! 🎮 Use arrow keys (or touch controls) to move the blue square. Reach the green exit!" },
-  { title: "Experience", text: "💼 Worked on Unity, Unreal, and slot games. Skilled in mechanics, UI, and publishing." },
   { title: "Education", text: "🎓 B.E in Computer Engineering and Specialized in Game Development." },
   { title: "Work Experience", text: "<b>3+ years of experience as a Unity Game developer.<\b><br>Worked on casual, puzzle games as well as casino games." },
   { title: "Location", text: "📍 Based in Goa,India." },
