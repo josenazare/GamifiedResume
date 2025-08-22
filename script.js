@@ -12,10 +12,11 @@ let waitingForA = false;
 const stages = [
   { title: "Intro", text: "Welcome to my gamified resume! 🎮 Use arrow keys (or touch controls) to move the blue square. Reach the green exit!" },
   { title: "Experience", text: "💼 Worked on Unity, Unreal, and slot games. Skilled in mechanics, UI, and publishing." },
-  { title: "Education", text: "🎓 Bachelor's in Computer Science. Specialized in Game Development and Interactive Media." },
-  { title: "Location", text: "📍 Based in India, collaborating remotely with teams worldwide." },
-  { title: "Contact", text: "📧 jose@example.com <br>🔗 <a href='https://linkedin.com' target='_blank'>LinkedIn</a>" },
-  { title: "Thanks", text: "🎉 Thanks for playing my resume! <br> Check out my games on <a href='https://itch.io' target='_blank'>Itch.io</a>" }
+  { title: "Education", text: "🎓 B.E in Computer Engineering and Specialized in Game Development." },
+  { title: "Work Experience", text: "<b>3+ years of experience as a Unity Game developer.<\b><br>Worked on casual, puzzle games as well as casino games." },
+  { title: "Location", text: "📍 Based in Goa,India." },
+  { title: "Contact", text: "📧 josenazare611@gmail.com <br>🔗 <a href='https://www.linkedin.com/in/jos%C3%A9-nazar%C3%A9-0a605ab2/' target='_blank'>LinkedIn</a>" },
+  { title: "Thanks", text: "🎉 Thanks for playing my resume! <br> Check out my games on <a href='https://gamedev-jose.itch.io/' target='_blank'>Itch.io</a>" }
 ];
 
 function resizeCanvas() {
