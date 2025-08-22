@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#infoBox {
+  width: 90%;
+  max-width: 800px;
+  background: rgba(0,0,0,0.85);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+#mazeCanvas {
+  background: #1c1c1c;
+  border: 3px solid #fff;
+  display: block;
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  display: none;
+  font-size: 14px;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
